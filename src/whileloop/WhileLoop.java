@@ -8,7 +8,7 @@ public class WhileLoop {
         String tem;
         tem = JOptionPane.showInputDialog(null, "Temperature High ? (Y/N)");
         while(tem.equals("Y")){
-            System.out.println("Compresser on");
+            JOptionPane.showMessageDialog(null, "Compresser on");
             tem = JOptionPane.showInputDialog(null, "Temperature High ? (Y/N)");
         }
     }
